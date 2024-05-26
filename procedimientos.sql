@@ -1,3 +1,4 @@
+DELIMITER //
 CREATE PROCEDURE RegistrarCliente(
     IN p_nombre VARCHAR(255),
     IN p_email VARCHAR(255),
@@ -6,7 +7,7 @@ CREATE PROCEDURE RegistrarCliente(
 BEGIN
     INSERT INTO Clientes (nombre, email, direccion)
     VALUES (p_nombre, p_email, p_direccion);
-END;
+END //
 
 
 CREATE PROCEDURE EliminarProducto(
@@ -20,7 +21,7 @@ BEGIN
     -- Eliminar el producto
     DELETE FROM Productos
     WHERE id_producto = p_id_producto;
-END;
+END //
 CREATE PROCEDURE VerificarYActualizarStock(
     IN p_id_producto INT,
     IN p_umbral INT,
@@ -37,5 +38,7 @@ BEGIN
         SET stock = p_nuevo_stock
         WHERE id_producto = p_id_producto;
     END IF;
-END;
+END //
+
+DELIMITER ;
 
