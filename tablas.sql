@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS Tienda;
 CREATE DATABASE Tienda;
 USE Tienda;
 CREATE TABLE Categorías (
