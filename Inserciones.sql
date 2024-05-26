@@ -1,8 +1,3 @@
-DROP TABLE IF EXISTS `Clientes`;
-DROP TABLE IF EXISTS `Pedidos`;
-DROP TABLE IF EXISTS `Categorías`;
-DROP TABLE IF EXISTS `Proveedores`;
-
 INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Archivadores', 'Archivadores para organizar documentos', NULL);
 INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Pegamento', 'Pegamentos de varios tipos', NULL);
 INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Cajas de almacenaje', 'Cajas para almacenar documentos y suministros', NULL);
