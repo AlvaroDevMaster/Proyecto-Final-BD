@@ -3,9 +3,7 @@ USE Tienda;
 CREATE TABLE Categorías (
     id_categoria INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
-    descripción TEXT,
-    id_categoria_padre INT,
-    FOREIGN KEY (id_categoria_padre) REFERENCES Categorías(id_categoria)
+    descripción TEXT
 );
 
 CREATE TABLE Proveedores (
