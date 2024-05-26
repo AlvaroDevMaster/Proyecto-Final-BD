@@ -1,3 +1,5 @@
+
+DELIMITER //
 CREATE FUNCTION ObtenerStock(id_producto INT) 
 RETURNS INT
 BEGIN
@@ -6,7 +8,7 @@ BEGIN
     FROM Productos
     WHERE id_producto = id_producto;
     RETURN stock_actual;
-END;
+END //
 
 CREATE FUNCTION CalcularTotalPedido(id_pedido INT) 
 RETURNS DECIMAL(10, 2)
@@ -16,4 +18,6 @@ BEGIN
     FROM Detalles_Pedidos
     WHERE id_pedido = id_pedido;
     RETURN total;
-END;
+END //
+
+DELIMITER ;
