@@ -59,3 +59,4 @@ CREATE TABLE Comentarios (
     FOREIGN KEY (id_pedido) REFERENCES Pedidos(id_pedido)
 );
 
+
