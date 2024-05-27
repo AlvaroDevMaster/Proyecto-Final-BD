@@ -1,32 +1,32 @@
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Archivadores', 'Archivadores para organizar documentos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Pegamento', 'Pegamentos de varios tipos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Cajas de almacenaje', 'Cajas para almacenar documentos y suministros', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Cintas adhesivas', 'Cintas adhesivas de diferentes tamaños y usos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Calculadoras', 'Calculadoras de escritorio y portátiles', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Sobres', 'Sobres para envío y almacenamiento', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Tijeras', 'Tijeras de varios tamaños y estilos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Organizadores de escritorio', 'Organizadores para mantener el escritorio ordenado', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Correctores', 'Correctores líquidos y en cinta', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Papel', 'Papel de distintos tamaños y gramajes', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Agendas', 'Agendas y planificadores', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Rotuladores', 'Rotuladores permanentes y para pizarra', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Grapadoras', 'Grapadoras y grapas', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Borradores', 'Borradores para pizarras y lápices', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Etiquetas', 'Etiquetas adhesivas para identificación', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Carpetas', 'Carpetas para documentos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Plastificadoras', 'Máquinas plastificadoras y fundas', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Perforadoras', 'Perforadoras de papel', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Sellos', 'Sellos de caucho y tinta para documentos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Post-it', 'Notas adhesivas Post-it', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Reglas', 'Reglas de medición', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Afiladores', 'Afiladores de lápices', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Separadores', 'Separadores para carpetas y archivos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Protectores', 'Protectores de hojas para carpetas', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Cartulinas', 'Cartulinas de colores', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Tintas', 'Tintas para impresoras', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Bandejas', 'Bandejas para documentos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Portafolios', 'Portafolios para documentos', NULL);
-INSERT INTO Categorías (nombre, descripción, id_categoria_padre) VALUES ('Clasificadores', 'Clasificadores de documentos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Archivadores', 'Archivadores para organizar documentos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Pegamento', 'Pegamentos de varios tipos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Cajas de almacenaje', 'Cajas para almacenar documentos y suministros', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Cintas adhesivas', 'Cintas adhesivas de diferentes tamaños y usos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Calculadoras', 'Calculadoras de escritorio y portátiles', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Sobres', 'Sobres para envío y almacenamiento', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Tijeras', 'Tijeras de varios tamaños y estilos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Organizadores de escritorio', 'Organizadores para mantener el escritorio ordenado', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Correctores', 'Correctores líquidos y en cinta', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Papel', 'Papel de distintos tamaños y gramajes', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Agendas', 'Agendas y planificadores', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Rotuladores', 'Rotuladores permanentes y para pizarra', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Grapadoras', 'Grapadoras y grapas', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Borradores', 'Borradores para pizarras y lápices', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Etiquetas', 'Etiquetas adhesivas para identificación', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Carpetas', 'Carpetas para documentos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Plastificadoras', 'Máquinas plastificadoras y fundas', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Perforadoras', 'Perforadoras de papel', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Sellos', 'Sellos de caucho y tinta para documentos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Post-it', 'Notas adhesivas Post-it', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Reglas', 'Reglas de medición', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Afiladores', 'Afiladores de lápices', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Separadores', 'Separadores para carpetas y archivos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Protectores', 'Protectores de hojas para carpetas', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Cartulinas', 'Cartulinas de colores', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Tintas', 'Tintas para impresoras', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Bandejas', 'Bandejas para documentos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Portafolios', 'Portafolios para documentos', NULL);
+INSERT INTO `Categorias` (nombre, `descripcion`, id_categoria_padre) VALUES ('Clasificadores', 'Clasificadores de documentos', NULL);
 
 INSERT INTO Proveedores (nombre, contacto) VALUES ('ABC Suministros de Oficina', 'John Smith');
 INSERT INTO Proveedores (nombre, contacto) VALUES ('EcoPapel S.A.', 'Maria Garcia');
@@ -46,7 +46,7 @@ INSERT INTO Proveedores (nombre, contacto) VALUES ('Innovative Stationery', 'Eth
 
 
 
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Emerald Roman","facilisis.suspendisse.commodo@aol.org","9484 A, Av."),
   ("Galvin Goodwin","nunc.ac.sem@outlook.edu","Ap #973-2582 Sociis Road"),
@@ -58,7 +58,7 @@ VALUES
   ("Colorado Neal","nulla.dignissim@icloud.couk","4519 Iaculis Rd."),
   ("Tamara Booth","iaculis.nec@protonmail.com","P.O. Box 616, 7405 Urna Street"),
   ("Yardley Acosta","venenatis.lacus@hotmail.edu","828-9816 Accumsan Street");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Nicholas Mendoza","diam.luctus@icloud.couk","8417 Massa. Ave"),
   ("Carter Acosta","sapien.cursus@aol.ca","476-7773 Tincidunt St."),
@@ -70,7 +70,7 @@ VALUES
   ("Ahmed Frank","et.pede@hotmail.ca","Ap #759-4805 Est Avenue"),
   ("Kiona May","metus.urna@yahoo.org","6739 Convallis St."),
   ("Hedy Valentine","per.conubia@google.ca","907-3680 Tempus Avenue");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Stacey Nielsen","eu.augue@protonmail.net","P.O. Box 879, 1804 Metus. Road"),
   ("Flynn Schroeder","aliquam.adipiscing@google.ca","231-1416 Parturient Street"),
@@ -82,7 +82,7 @@ VALUES
   ("Lucian Blackwell","id.nunc.interdum@icloud.org","P.O. Box 801, 1194 Dis Ave"),
   ("Derek Cobb","erat.sed.nunc@aol.org","Ap #420-9277 Mauris Avenue"),
   ("Blythe Bates","ut.molestie@protonmail.edu","501-9782 Mi St.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Kiayada Garza","eu.nulla.at@yahoo.net","332-7876 Vitae Ave"),
   ("Brynne Buckner","sed.leo@icloud.org","122-464 Porttitor Rd."),
@@ -94,7 +94,7 @@ VALUES
   ("Kiara Mckee","a@aol.org","2515 Magna. Street"),
   ("Hoyt Elliott","et.ipsum@google.couk","609-3150 Auctor, Rd."),
   ("Dahlia Potts","mi.felis@yahoo.com","Ap #200-4715 Vitae, Ave");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Alfonso Koch","nec@hotmail.com","7310 Cursus St."),
   ("Neville Byrd","nunc@hotmail.com","385-3055 Vivamus Av."),
@@ -106,7 +106,7 @@ VALUES
   ("Destiny Mendez","interdum.ligula.eu@icloud.ca","650-1476 Sit St."),
   ("Jena Soto","nec@hotmail.edu","Ap #770-9853 Ipsum St."),
   ("Jolene Blackwell","malesuada.fames.ac@protonmail.com","Ap #675-4832 Justo. Ave");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Vincent Hardin","ultricies.ornare@outlook.edu","270-1712 Quis Avenue"),
   ("Danielle House","vivamus.euismod@aol.org","339-4397 Egestas. St."),
@@ -118,7 +118,7 @@ VALUES
   ("April Wright","amet@protonmail.org","Ap #751-4227 At, Street"),
   ("Carter Gallagher","lorem.eu.metus@icloud.edu","P.O. Box 999, 8808 Molestie St."),
   ("Aphrodite Welch","nec.mauris.blandit@hotmail.com","4469 Feugiat. Av.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Zia Jarvis","ornare.sagittis.felis@aol.edu","P.O. Box 685, 8934 Auctor Rd."),
   ("Geraldine Cervantes","aenean@aol.edu","Ap #282-1594 Habitant Road"),
@@ -130,7 +130,7 @@ VALUES
   ("Tad Kramer","ultrices@hotmail.org","268 At, Avenue"),
   ("Cleo Harris","primis.in@google.ca","Ap #962-5117 Mus. Road"),
   ("Jerry Wilkerson","amet.ornare@aol.edu","Ap #357-4018 Tincidunt Av.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Phillip Shaw","nec.euismod@outlook.org","5976 Faucibus Av."),
   ("Chiquita Dawson","ridiculus.mus@icloud.ca","Ap #795-7314 Mauris. Road"),
@@ -142,7 +142,7 @@ VALUES
   ("Summer Roach","suspendisse@google.edu","Ap #634-8181 Suscipit Ave"),
   ("Yetta Aguilar","donec.non.justo@icloud.ca","306-4472 Vel St."),
   ("Olympia Golden","sed.molestie@yahoo.edu","541-5609 Aliquam Rd.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Tobias Mcdonald","ultricies@aol.com","469-7927 Odio. Road"),
   ("Moana Bowers","amet@google.couk","Ap #879-2720 Morbi Rd."),
@@ -154,7 +154,7 @@ VALUES
   ("Zoe Ellis","elit.fermentum.risus@protonmail.com","P.O. Box 599, 9168 Hendrerit. Street"),
   ("Marny Pearson","interdum.ligula@yahoo.edu","Ap #836-6269 Scelerisque Rd."),
   ("Branden Hines","a.neque@outlook.couk","230-2844 Mauris Street");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Colette Hammond","libero.et.tristique@outlook.com","Ap #882-1253 Enim. St."),
   ("Craig Murphy","dolor.vitae.dolor@outlook.edu","2339 Interdum. Street"),
@@ -166,7 +166,7 @@ VALUES
   ("Illana Kent","in.felis@hotmail.edu","660-1744 Libero St."),
   ("Patience Becker","lorem.eu@hotmail.com","Ap #321-6857 Praesent Avenue"),
   ("Perry Whitney","enim.commodo@hotmail.couk","170-7445 Sed Road");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Clark Reynolds","donec.luctus@hotmail.couk","211-9844 Et St."),
   ("Leonard Warner","senectus.et@hotmail.ca","Ap #148-6831 Erat Rd."),
@@ -178,7 +178,7 @@ VALUES
   ("Clementine Stephens","a.purus@yahoo.com","Ap #395-5900 Sit Road"),
   ("Blaze Marks","mauris.sapien.cursus@google.com","5637 Auctor Rd."),
   ("Stacy Melendez","morbi@aol.edu","P.O. Box 291, 7740 Eget, St.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Connor Blackwell","proin@protonmail.couk","P.O. Box 617, 1597 Condimentum. Rd."),
   ("Joy Payne","lacus@hotmail.edu","Ap #249-8259 Dictum. Road"),
@@ -190,7 +190,7 @@ VALUES
   ("Geraldine Wright","ipsum.phasellus@aol.com","Ap #263-4467 Scelerisque Rd."),
   ("Virginia Puckett","vulputate@hotmail.ca","699-7821 Est. Road"),
   ("Pamela Kemp","ipsum.phasellus@hotmail.net","5261 Tincidunt Av.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Kiayada Haney","massa@outlook.net","Ap #450-455 Magna. Rd."),
   ("Chester Estrada","mollis@aol.couk","381-2946 Massa St."),
@@ -202,7 +202,7 @@ VALUES
   ("Fritz Macias","vitae.aliquam.eros@outlook.com","338-5093 Rutrum, Road"),
   ("Tiger Noel","quam.a.felis@yahoo.ca","Ap #247-527 Vehicula. St."),
   ("Colby White","lobortis.tellus@icloud.net","3425 At Rd.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Neve Byers","metus@hotmail.net","4038 Morbi Rd."),
   ("Erin Daugherty","dapibus.gravida@icloud.ca","Ap #508-9028 Arcu. Rd."),
@@ -214,7 +214,7 @@ VALUES
   ("Samuel Schwartz","nam@yahoo.org","P.O. Box 262, 6922 Bibendum Rd."),
   ("Mason Walton","duis.volutpat@protonmail.com","Ap #784-7471 Arcu. Rd."),
   ("Kerry Turner","elit.a.feugiat@google.couk","425-5908 Curabitur Avenue");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Tobias Pacheco","elit.a.feugiat@hotmail.ca","P.O. Box 238, 7213 Pede. Avenue"),
   ("Henry Ramsey","adipiscing@yahoo.couk","390-7295 Mauris Rd."),
@@ -226,7 +226,7 @@ VALUES
   ("Damian Cervantes","iaculis@outlook.org","313-9499 Turpis Ave"),
   ("Britanney Wise","semper@google.couk","Ap #511-977 Auctor Road"),
   ("Dawn Harmon","eleifend.non@icloud.org","983-6139 Felis, Rd.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Freya Nixon","libero.est@icloud.couk","Ap #873-7501 Malesuada St."),
   ("Quynn Owens","curae.donec@outlook.ca","P.O. Box 630, 3870 Sodales Avenue"),
@@ -238,7 +238,7 @@ VALUES
   ("Halla Sexton","nisi@outlook.org","P.O. Box 910, 8107 Tempus St."),
   ("Octavius Parrish","pede.cum.sociis@yahoo.com","9004 Eget, Road"),
   ("Flavia Owens","lacus.varius.et@protonmail.ca","P.O. Box 139, 1435 Fringilla Road");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Cynthia Guy","sed.dictum.eleifend@icloud.couk","939-356 Quis St."),
   ("Alyssa Day","massa.vestibulum@icloud.couk","Ap #106-2204 Nulla Rd."),
@@ -250,7 +250,7 @@ VALUES
   ("Cassandra Kinney","rhoncus@aol.net","741-8757 Tristique Street"),
   ("Chancellor Mathis","nonummy@outlook.couk","2223 Ullamcorper, Road"),
   ("Walker Jarvis","id@yahoo.com","326-9741 Mus. Road");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Zeph Carpenter","risus.nunc@protonmail.com","Ap #776-5593 Et St."),
   ("Dane Nieves","sed@google.edu","193-7816 Vulputate, Street"),
@@ -262,7 +262,7 @@ VALUES
   ("Erasmus Bailey","ligula.tortor@aol.com","Ap #274-1273 Donec St."),
   ("Fitzgerald Morris","donec.egestas@aol.com","847-8030 Vel, Avenue"),
   ("Winter Ingram","aliquet.phasellus.fermentum@outlook.ca","765-5745 Mollis. Street");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Chloe Koch","sociis@outlook.ca","8711 Lacinia. Rd."),
   ("Yolanda Huffman","duis.sit@protonmail.net","356-5141 Congue Av."),
@@ -274,7 +274,7 @@ VALUES
   ("Malachi Stevenson","cras.eget.nisi@aol.com","P.O. Box 897, 9135 Lacinia. Avenue"),
   ("Demetrius Sanford","in.sodales@google.couk","Ap #832-601 Etiam Street"),
   ("Colette Cantu","convallis.dolor.quisque@google.org","7142 Magnis St.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Kermit Garza","tristique.pharetra@protonmail.com","751-3063 Eget Av."),
   ("Tate Kirby","faucibus.morbi.vehicula@google.ca","247-8713 Eros Avenue"),
@@ -286,7 +286,7 @@ VALUES
   ("Driscoll Velasquez","faucibus@outlook.edu","852-9538 Feugiat. Road"),
   ("Yvette Pittman","nascetur.ridiculus@icloud.ca","476-333 Pede Ave"),
   ("Axel Shaw","nec.euismod@google.net","759-8595 Integer St.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Erasmus Hodges","dolor.donec@protonmail.ca","7947 Sociis Rd."),
   ("Reed Burke","et@google.org","853-5798 Eu Av."),
@@ -298,7 +298,7 @@ VALUES
   ("Sharon Tucker","vulputate.velit.eu@protonmail.com","319-7271 Tristique Av."),
   ("Ursula Rice","nisi@yahoo.org","619-8159 Curabitur Street"),
   ("Derek Holt","eu@google.edu","Ap #755-4681 Dolor Rd.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Kyla Henry","velit.cras@yahoo.edu","Ap #254-5161 Phasellus Rd."),
   ("Christian Nixon","nulla.integer@google.edu","8088 Pellentesque, Avenue"),
@@ -310,7 +310,7 @@ VALUES
   ("Jerome Strickland","lorem@hotmail.couk","183-3314 Aenean Av."),
   ("Callie Logan","ac.orci@aol.couk","185-7541 Dolor Rd."),
   ("Gail Randolph","accumsan@yahoo.couk","Ap #839-4946 Tellus Rd.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Armand Rodriquez","vivamus.nibh@google.org","5555 Curae St."),
   ("Amela Robbins","sed.nec@aol.com","Ap #570-4547 Tellus, Rd."),
@@ -322,7 +322,7 @@ VALUES
   ("Axel Bolton","eu.arcu.morbi@aol.org","Ap #678-369 Pede Rd."),
   ("Tatyana Rivas","lorem.fringilla@outlook.net","906-4485 Phasellus Rd."),
   ("Coby Bradshaw","sagittis.placerat@google.org","P.O. Box 353, 2309 Nascetur Rd.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Doris Carver","praesent@aol.couk","Ap #792-9777 Sem St."),
   ("Maia Gibbs","aliquam.arcu@icloud.com","645-9043 Nunc Rd."),
@@ -334,7 +334,7 @@ VALUES
   ("Xenos Berry","sagittis.duis@hotmail.com","Ap #965-469 Suspendisse Rd."),
   ("Joelle Case","in@google.couk","581-4924 Aliquam Avenue"),
   ("Julian Ferguson","magna.tellus@outlook.net","Ap #631-5282 Odio St.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Iona Watts","ullamcorper.velit@protonmail.couk","Ap #277-7466 A St."),
   ("Pamela Griffith","luctus.vulputate.nisi@outlook.couk","Ap #114-528 Accumsan Avenue"),
@@ -346,7 +346,7 @@ VALUES
   ("Athena Rowland","eget.ipsum.suspendisse@yahoo.couk","697-7631 Dapibus Ave"),
   ("Oren Stein","pellentesque.ut@google.edu","Ap #907-2293 Lectus St."),
   ("Chase Buckner","in@protonmail.net","P.O. Box 135, 3200 Ac, Av.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Naomi Henry","facilisis.magna.tellus@hotmail.net","847-3215 Amet Ave"),
   ("Asher Fuentes","magna.tellus@outlook.couk","675-8687 Ante, Street"),
@@ -358,7 +358,7 @@ VALUES
   ("Rina Bullock","imperdiet@protonmail.net","717-1828 Malesuada St."),
   ("Amery Taylor","massa.integer@outlook.org","Ap #355-6693 Mauris Road"),
   ("Carolyn Hoover","quisque.libero@protonmail.com","Ap #257-3056 Sit St.");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Nevada Vincent","semper@protonmail.ca","203-1163 Tempus, Ave"),
   ("Abraham Bowers","sed.hendrerit.a@aol.net","260-1145 A, Ave"),
@@ -370,7 +370,7 @@ VALUES
   ("Oleg Ewing","mauris.a@yahoo.com","1871 Molestie. Rd."),
   ("Candice Wood","sed.pede@hotmail.net","Ap #516-1205 Vitae, St."),
   ("Chaney Juarez","ut.eros@protonmail.edu","555-3974 Nec Ave");
-INSERT INTO `Clientes` (`nombre`,`email`,`direccion`)
+INSERT INTO Clientes (nombre,email,`direccion`)
 VALUES
   ("Illana Copeland","aliquet.metus@hotmail.couk","378-1595 Congue. Rd."),
   ("Xaviera Perry","mauris.eu@google.ca","P.O. Box 186, 833 Magnis Street"),
@@ -383,7 +383,7 @@ VALUES
   ("Abbot Morales","gravida.praesent@aol.edu","Ap #967-933 Facilisis Street"),
   ("Driscoll Church","id.enim@outlook.couk","P.O. Box 541, 9888 Magna. Road");
 
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("Regla de 15 cm Tijeras de punta","",656,93,21,10),
   ("notas tamaño A5 Organizador de escritorio de","",37,58,28,15),
@@ -395,7 +395,7 @@ VALUES
   ("de papel de dibujo tamaño A3 (bloque","",289,102,12,14),
   ("de anillas tamaño carta Carpeta de anillas","",200,142,30,10),
   ("redonda Tijeras de punta fina Grapadora de","",496,82,5,10);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("tamaño carta Carpeta de anillas tamaño A4","",193,38,28,3),
   ("de 5000) Grapas de colores (caja de","",510,182,4,9),
@@ -407,7 +407,7 @@ VALUES
   ("de escritorio Grapas estándar (caja de 5000)","",125,166,9,9),
   ("de papel de dibujo tamaño A3 (bloque","",388,60,12,6),
   ("de 500 hojas) Papel para impresora tamaño","",239,75,9,8);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("carta (paquete de 500 hojas) Papel para","",265,4,5,12),
   ("surtidos (paquete de 100 hojas) Bloc de","",25,94,30,4),
@@ -419,7 +419,7 @@ VALUES
   ("10) Carpetas de presentación con bolsillos Carpetas","",119,46,11,2),
   ("Carpeta de anillas tamaño carta Carpeta de","",603,32,26,9),
   ("escritorio Planificador diario Agenda telefónica Papel para","",604,12,27,1);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("bolígrafos y lápices Clips metálicos (paquete de","",462,60,15,5),
   ("contabilidad Agenda semanal de 2024 Calendario de","",188,178,4,3),
@@ -431,7 +431,7 @@ VALUES
   ("de colores (paquete de 12) Marcador fluorescente","",737,119,9,13),
   ("5) Archivador de palanca tamaño carta Archivador","",671,139,20,10),
   ("Agenda telefónica Papel para fax (paquete de","",399,46,20,15);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("hojas) Papel milimetrado tamaño A4 (paquete de","",408,50,28,2),
   ("(paquete de 100 hojas) Papel milimetrado tamaño","",475,195,2,13),
@@ -443,7 +443,7 @@ VALUES
   ("Bloc de notas adhesivas (paquete de 100)","",689,162,11,4),
   ("Calendario de escritorio Planificador diario Agenda telefónica","",275,43,21,14),
   ("plástico Organizador de escritorio de madera Soporte","",715,0,6,5);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("con bolsillos Fundas de plástico para documentos","",627,161,10,10),
   ("de colores (paquete de 5 rollos) Pegamento","",617,139,2,7),
@@ -455,7 +455,7 @@ VALUES
   ("colores (caja de 1000) Carpeta de anillas","",17,17,22,12),
   ("de visita Papel de colores surtidos (paquete","",333,22,6,14),
   ("de plástico con cierre Papel para impresora","",454,48,4,1);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("(paquete de 500 hojas) Papel para dibujo","",61,47,15,2),
   ("HB Lápiz de colores (paquete de 12)","",391,187,24,10),
@@ -467,7 +467,7 @@ VALUES
   ("archivos colgantes Carpeta de plástico con cierre","",711,1,13,8),
   ("bolígrafos y lápices Clips metálicos (paquete de","",551,144,29,14),
   ("de 100 hojas) Libreta de notas con","",404,142,4,4);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("hojas) Papel para dibujo tamaño carta (bloque","",795,135,13,14),
   ("de colores (paquete de 5 rollos) Pegamento","",778,165,7,13),
@@ -479,7 +479,7 @@ VALUES
   ("para dibujo tamaño carta (bloque de 50","",161,78,28,15),
   ("colgantes Carpeta de plástico con cierre Papel","",316,6,23,12),
   ("adhesivas (paquete de 100) Bloc de notas","",620,113,10,13);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("de cajón para documentos Estuche para tarjetas","",655,199,16,7),
   ("tamaño A4 Carpeta de archivos colgantes Carpeta","",228,195,22,8),
@@ -491,7 +491,7 @@ VALUES
   ("500 hojas) Papel para notas tamaño 3x3","",646,19,24,14),
   ("notas tamaño A5 Organizador de escritorio de","",752,127,9,10),
   ("Bloc de notas tamaño carta Bloc de","",655,137,5,14);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("documentos (paquete de 100) Cinta adhesiva transparente","",361,166,18,10),
   ("con cierre Papel para impresora tamaño carta","",161,14,16,13),
@@ -503,7 +503,7 @@ VALUES
   ("Carpetas de presentación con bolsillos Carpetas de","",510,99,25,3),
   ("bolsillos Fundas de plástico para documentos (paquete","",36,96,18,5),
   ("de 10) Carpetas de presentación con bolsillos","",96,17,6,1);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("tamaño carta (paquete de 100 hojas) Papel","",311,45,8,7),
   ("(paquete de 500 hojas) Papel para impresora","",93,121,15,11),
@@ -515,7 +515,7 @@ VALUES
   ("con bolsillos Carpetas de colores surtidos (paquete","",297,134,11,15),
   ("plástico con cierre Papel para impresora tamaño","",540,163,22,9),
   ("(paquete de 100) Cinta adhesiva transparente (rollo","",507,12,25,14);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("de notas adhesivas (paquete de 100) Bloc","",348,37,16,6),
   ("presentación con bolsillos Carpetas de colores surtidos","",113,130,9,1),
@@ -527,7 +527,7 @@ VALUES
   ("A5 Organizador de escritorio de plástico Organizador","",453,90,16,8),
   ("(paquete de 100) Cinta adhesiva transparente (rollo","",274,178,9,12),
   ("metálicos (paquete de 50) Clips de colores","",279,173,23,13);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("para fax (paquete de 100 hojas) Etiquetas","",76,172,22,13),
   ("de plástico para documentos (paquete de 100)","",155,21,20,1),
@@ -539,7 +539,7 @@ VALUES
   ("de colores (paquete de 100) Regla de","",631,187,30,6),
   ("bolígrafos y lápices Clips metálicos (paquete de","",82,125,15,4),
   ("A4 Cuaderno de dibujo con hojas blancas","",358,191,26,13);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("de madera Soporte para bolígrafos y lápices","",284,123,20,10),
   ("espiral tamaño A4 Cuaderno de dibujo con","",109,30,29,5),
@@ -551,7 +551,7 @@ VALUES
   ("Bloc de notas tamaño A5 Organizador de","",391,16,23,14),
   ("plástico Organizador de escritorio de madera Soporte","",141,154,20,1),
   ("30 cm Regla de 15 cm Tijeras","",159,131,14,14);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("Marcador fluorescente rosa Corrector líquido Portaminas Goma","",577,22,8,9),
   ("tamaño A3 (bloque de 50 hojas) Libro","",411,73,14,2),
@@ -563,7 +563,7 @@ VALUES
   ("de madera Soporte para bolígrafos y lápices","",20,7,16,4),
   ("bolsillo Bloc de papel de dibujo tamaño","",476,129,17,9),
   ("Cinta adhesiva de colores (paquete de 5","",155,40,22,6);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("de colores surtidos (paquete de 100 hojas)","",642,179,28,5),
   ("colores (paquete de 100) Regla de 30","",382,125,24,1),
@@ -575,7 +575,7 @@ VALUES
   ("colgantes Carpeta de plástico con cierre Papel","",215,71,5,6),
   ("tamaño carta Bloc de notas tamaño A5","",574,65,7,2),
   ("tamaño carta Cuaderno de espiral tamaño A4","",255,175,29,9);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("punta redonda Tijeras de punta fina Grapadora","",751,37,18,10),
   ("de 500 hojas) Papel para dibujo tamaño","",140,160,9,6),
@@ -587,7 +587,7 @@ VALUES
   ("organizadora de documentos Separadores de índice (paquete","",551,119,14,7),
   ("1000) Carpeta de anillas tamaño carta Carpeta","",752,11,26,3),
   ("50 hojas) Carpeta de proyectos con bolsillos","",153,86,17,8);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("15 cm Tijeras de punta redonda Tijeras","",441,84,20,12),
   ("para tarjetas de visita Papel de colores","",666,92,12,11),
@@ -599,7 +599,7 @@ VALUES
   ("adhesiva de colores (paquete de 5 rollos)","",402,41,10,8),
   ("tamaño A4 Archivador de cajón para documentos","",452,50,18,8),
   ("5000) Grapas de colores (caja de 1000)","",491,15,25,12);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("de 50 hojas) Libro de contabilidad Agenda","",575,32,14,5),
   ("palanca tamaño A4 Archivador de cajón para","",112,30,8,3),
@@ -611,7 +611,7 @@ VALUES
   ("hojas) Libro de contabilidad Agenda semanal de","",167,126,22,6),
   ("de espiral tamaño carta Cuaderno de espiral","",112,163,7,10),
   ("presentación con bolsillos Carpetas de colores surtidos","",727,106,15,8);
-INSERT INTO `Productos` (` nombre`,`descripcion`,`precio`,`stock`,`id_categoria`,`id_proveedor`)
+INSERT INTO Productos (nombre,`descripcion`,precio,stock,id_categoria,id_proveedor)
 VALUES
   ("para fax (paquete de 100 hojas) Etiquetas","",466,120,29,10),
   ("de 100) Etiquetas adhesivas de colores (paquete","",262,198,8,9),
@@ -624,7 +624,7 @@ VALUES
   ("A4 Cuaderno de dibujo con hojas blancas","",645,120,17,7),
   ("Carpeta de proyectos con bolsillos Fundas de","",476,92,29,14);
 
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("16,21,2024",272),
   ("10,50,2023",31),
@@ -636,7 +636,7 @@ VALUES
   ("06,09,2022",37),
   ("03,13,2024",255),
   ("24,57,2023",69);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("31,48,2022",76),
   ("22,36,2022",25),
@@ -648,7 +648,7 @@ VALUES
   ("08,10,2023",156),
   ("23,17,2023",224),
   ("29,12,2023",66);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("28,50,2023",87),
   ("05,26,2023",277),
@@ -660,7 +660,7 @@ VALUES
   ("20,42,2024",119),
   ("18,51,2024",125),
   ("01,54,2024",221);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("11,24,2023",143),
   ("01,51,2024",152),
@@ -672,7 +672,7 @@ VALUES
   ("01,41,2023",111),
   ("08,44,2024",223),
   ("23,17,2022",33);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("15,21,2022",16),
   ("26,27,2022",82),
@@ -684,7 +684,7 @@ VALUES
   ("18,16,2023",183),
   ("11,41,2024",113),
   ("24,20,2024",79);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("23,39,2023",136),
   ("10,17,2023",16),
@@ -696,7 +696,7 @@ VALUES
   ("03,45,2022",235),
   ("19,42,2024",125),
   ("05,09,2023",249);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("20,13,2024",87),
   ("09,52,2023",96),
@@ -708,7 +708,7 @@ VALUES
   ("05,18,2024",267),
   ("06,22,2023",77),
   ("19,45,2022",195);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("25,26,2023",66),
   ("11,13,2023",26),
@@ -720,7 +720,7 @@ VALUES
   ("08,25,2024",238),
   ("27,03,2023",8),
   ("23,35,2022",193);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("23,20,2024",123),
   ("21,33,2023",7),
@@ -732,7 +732,7 @@ VALUES
   ("07,27,2023",173),
   ("31,04,2024",125),
   ("04,42,2024",226);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("13,37,2022",37),
   ("03,35,2023",279),
@@ -744,7 +744,7 @@ VALUES
   ("08,30,2023",104),
   ("23,24,2022",110),
   ("06,58,2023",236);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("18,24,2023",38),
   ("16,36,2022",203),
@@ -756,7 +756,7 @@ VALUES
   ("25,54,2024",279),
   ("26,52,2023",240),
   ("27,03,2024",93);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("22,51,2024",63),
   ("03,48,2024",226),
@@ -768,7 +768,7 @@ VALUES
   ("01,29,2022",74),
   ("19,44,2022",132),
   ("14,35,2023",275);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("06,10,2022",147),
   ("21,18,2024",39),
@@ -780,7 +780,7 @@ VALUES
   ("21,42,2023",48),
   ("18,01,2022",87),
   ("08,21,2023",21);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("11,12,2024",265),
   ("25,30,2023",148),
@@ -792,7 +792,7 @@ VALUES
   ("02,36,2023",100),
   ("30,57,2023",153),
   ("27,51,2023",209);
-INSERT INTO `Pedidos` (`fecha`,`id_cliente`)
+INSERT INTO Pedidos (fecha,id_cliente)
 VALUES
   ("26,04,2022",103),
   ("29,39,2023",234),
@@ -806,7 +806,7 @@ VALUES
   ("19,03,2022",49);
 
   
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (24,43,274,732),
   (35,73,64,616),
@@ -818,7 +818,7 @@ VALUES
   (93,118,38,143),
   (142,114,279,468),
   (71,117,33,290);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (6,181,152,697),
   (42,20,266,347),
@@ -830,7 +830,7 @@ VALUES
   (131,100,190,292),
   (38,48,228,134),
   (148,161,136,462);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (52,14,93,789),
   (127,188,49,65),
@@ -842,7 +842,7 @@ VALUES
   (67,119,165,157),
   (42,62,37,40),
   (25,132,133,704);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (144,10,42,90),
   (15,196,113,566),
@@ -854,7 +854,7 @@ VALUES
   (131,45,91,327),
   (114,79,289,494),
   (53,198,180,124);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (50,45,287,481),
   (133,193,270,243),
@@ -866,7 +866,7 @@ VALUES
   (65,110,73,312),
   (113,139,164,624),
   (94,49,282,472);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (27,44,115,518),
   (150,65,48,780),
@@ -878,7 +878,7 @@ VALUES
   (24,73,140,488),
   (69,193,188,729),
   (75,49,290,570);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (109,115,174,758),
   (111,121,145,643),
@@ -890,7 +890,7 @@ VALUES
   (19,142,19,432),
   (30,7,46,650),
   (91,71,109,352);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (21,39,38,619),
   (114,158,130,418),
@@ -902,7 +902,7 @@ VALUES
   (82,26,97,718),
   (16,108,134,404),
   (147,145,5,690);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (97,137,207,408),
   (73,156,83,59),
@@ -914,7 +914,7 @@ VALUES
   (12,191,113,583),
   (130,140,35,297),
   (112,184,263,133);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (74,9,146,207),
   (139,186,183,30),
@@ -926,7 +926,7 @@ VALUES
   (147,50,26,298),
   (56,54,5,796),
   (81,71,175,643);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (89,158,46,197),
   (108,62,255,548),
@@ -938,7 +938,7 @@ VALUES
   (100,121,162,433),
   (73,147,154,509),
   (124,10,280,283);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (83,156,108,559),
   (51,91,155,789),
@@ -950,7 +950,7 @@ VALUES
   (119,36,82,692),
   (90,109,234,208),
   (118,91,12,241);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (149,80,90,721),
   (91,89,198,231),
@@ -962,7 +962,7 @@ VALUES
   (138,156,225,429),
   (33,63,248,481),
   (61,8,263,581);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (115,161,21,238),
   (64,144,136,392),
@@ -974,7 +974,7 @@ VALUES
   (137,91,199,303),
   (33,129,261,42),
   (37,187,262,466);
-INSERT INTO `Detalles_Pedidos` (` id_pedido`,`id_producto`,`cantidad`,`precio`)
+INSERT INTO Detalles_Pedidos (id_pedido,id_producto,cantidad,precio)
 VALUES
   (57,172,213,758),
   (40,172,183,728),
@@ -987,8 +987,8 @@ VALUES
   (56,167,242,569),
   (36,92,75,254);
 
-  --P = Perfecto, B= Bueno, R= Regular, D= Decepcionante, M= Malo
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+  -- P = Perfecto, B= Bueno, R= Regular, D= Decepcionante, M= Malo
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (72,"P"),
   (66,"R"),
@@ -1000,7 +1000,7 @@ VALUES
   (23,"R"),
   (120,"D"),
   (18,"M");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (125,"M"),
   (143,"B"),
@@ -1011,8 +1011,8 @@ VALUES
   (138,"R"),
   (68,"D"),
   (63,"P"),
-  (134,"M");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+  (134,"M"),
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (143,"P"),
   (141,"M"),
@@ -1024,7 +1024,7 @@ VALUES
   (143,"R"),
   (19,"R"),
   (2,"R");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (24,"D"),
   (26,"M"),
@@ -1036,7 +1036,7 @@ VALUES
   (63,"M"),
   (80,"D"),
   (10,"M");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (49,"R"),
   (90,"M"),
@@ -1048,7 +1048,7 @@ VALUES
   (147,"B"),
   (134,"B"),
   (120,"R");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (32,"P"),
   (150,"P"),
@@ -1060,7 +1060,7 @@ VALUES
   (59,"M"),
   (105,"P"),
   (58,"P");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (113,"R"),
   (73,"M"),
@@ -1072,7 +1072,7 @@ VALUES
   (31,"P"),
   (48,"M"),
   (75,"M");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (136,"P"),
   (139,"M"),
@@ -1084,7 +1084,7 @@ VALUES
   (67,"M"),
   (89,"M"),
   (115,"D");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (115,"D"),
   (93,"P"),
@@ -1096,7 +1096,7 @@ VALUES
   (14,"M"),
   (27,"R"),
   (113,"D");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (21,"M"),
   (16,"D"),
@@ -1108,7 +1108,7 @@ VALUES
   (19,"M"),
   (100,"P"),
   (8,"R");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (8,"M"),
   (40,"R"),
@@ -1120,7 +1120,7 @@ VALUES
   (77,"R"),
   (112,"M"),
   (111,"M");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (132,"P"),
   (36,"R"),
@@ -1132,7 +1132,7 @@ VALUES
   (8,"P"),
   (64,"M"),
   (23,"P");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (98,"R"),
   (84,"B"),
@@ -1144,7 +1144,7 @@ VALUES
   (144,"M"),
   (107,"M"),
   (81,"B");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (83,"B"),
   (75,"D"),
@@ -1156,7 +1156,7 @@ VALUES
   (100,"M"),
   (20,"P"),
   (50,"P");
-INSERT INTO `Comentarios` (` id_pedido`,`texto`)
+INSERT INTO Comentarios (id_pedido,texto)
 VALUES
   (87,"P"),
   (37,"P"),
@@ -1168,4 +1168,3 @@ VALUES
   (33,"B"),
   (25,"M"),
   (124,"M");
-
