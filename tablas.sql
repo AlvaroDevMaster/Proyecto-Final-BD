@@ -1,7 +1,11 @@
+-- Eliminar la base de datos existente
 DROP DATABASE IF EXISTS Tienda;
+
+-- Crear una nueva base de datos
 CREATE DATABASE Tienda;
 USE Tienda;
 
+-- Crear la tabla Categorias
 CREATE TABLE Categorias (
     id_categoria INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -10,12 +14,14 @@ CREATE TABLE Categorias (
     FOREIGN KEY (id_categoria_padre) REFERENCES Categorias(id_categoria)
 );
 
+-- Crear la tabla Proveedores
 CREATE TABLE Proveedores (
     id_proveedor INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     contacto VARCHAR(100)
 );
 
+-- Crear la tabla Clientes
 CREATE TABLE Clientes (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -23,6 +29,7 @@ CREATE TABLE Clientes (
     direccion TEXT
 );
 
+-- Crear la tabla Productos
 CREATE TABLE Productos (
     id_producto INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -35,6 +42,7 @@ CREATE TABLE Productos (
     FOREIGN KEY (id_proveedor) REFERENCES Proveedores(id_proveedor)
 );
 
+-- Crear la tabla Pedidos
 CREATE TABLE Pedidos (
     id_pedido INT AUTO_INCREMENT PRIMARY KEY,
     fecha DATE NOT NULL,
@@ -42,6 +50,7 @@ CREATE TABLE Pedidos (
     FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente)
 );
 
+-- Crear la tabla Detalles_Pedidos
 CREATE TABLE Detalles_Pedidos (
     id_pedido INT,
     id_producto INT,
@@ -52,6 +61,7 @@ CREATE TABLE Detalles_Pedidos (
     FOREIGN KEY (id_producto) REFERENCES Productos(id_producto)
 );
 
+-- Crear la tabla Comentarios
 CREATE TABLE Comentarios (
     id_comentario INT AUTO_INCREMENT PRIMARY KEY,
     id_pedido INT,
