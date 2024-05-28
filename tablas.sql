@@ -6,10 +6,10 @@ CREATE DATABASE Tienda;
 USE Tienda;
 
 -- Crear la tabla Categorias
-CREATE TABLE Categorias (
+CREATE TABLE `Categorias` (
     id_categoria INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
-    descripcion TEXT,
+    `descripcion` TEXT,
     id_categoria_padre INT,
     FOREIGN KEY (id_categoria_padre) REFERENCES Categorias(id_categoria)
 );
@@ -26,14 +26,14 @@ CREATE TABLE Clientes (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    direccion TEXT
+    `direccion` TEXT
 );
 
 -- Crear la tabla Productos
 CREATE TABLE Productos (
     id_producto INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
-    descripcion TEXT,
+    `descripcion` TEXT,
     precio DECIMAL(10, 2) NOT NULL,
     stock INT NOT NULL,
     id_categoria INT,
