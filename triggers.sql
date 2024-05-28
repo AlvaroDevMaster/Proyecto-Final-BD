@@ -1,4 +1,4 @@
---Creamos esta tabla para registrar los cambios en stock
+-- Creamos esta tabla para registrar los cambios en stock
 CREATE TABLE Historial_Stock (
     id_historial INT AUTO_INCREMENT PRIMARY KEY,
     id_producto INT,
