@@ -1,6 +1,6 @@
 CREATE VIEW VistaNumeroProductosPorCategoria AS
 SELECT c.nombre AS categoria, COUNT(p.id_producto) AS numero_productos
-FROM categorias c
+FROM `Categorias` c
 JOIN Productos p ON c.id_categoria = p.id_categoria
 GROUP BY c.nombre;
 
